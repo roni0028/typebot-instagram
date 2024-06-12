@@ -115,7 +115,7 @@ if (elementoPai) {
       link.id   = cssId;
       link.rel  = 'stylesheet';
       link.type = 'text/css';
-      link.href = 'https://igorlemoes.com.br/files/instagram/style_instagram_101023_v_001.css';
+      link.href = 'https://raw.githubusercontent.com/revolver-zip/typebot-instagram/main/styles?token=GHSAT0AAAAAACTLBRSGJXEWC6XBJQAXIW66ZTJ5NNA';
       link.media = 'all';
       head.appendChild(link);
   }
