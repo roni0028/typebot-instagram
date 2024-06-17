@@ -115,7 +115,7 @@ if (elementoPai) {
       link.id   = cssId;
       link.rel  = 'stylesheet';
       link.type = 'text/css';
-      link.href = 'https://raw.githubusercontent.com/revolver-zip/typebot-instagram/main/styles';
+      link.href = 'https://raw.githubusercontent.com/roni0028/typebot-instagram/main/styles.css';
       link.media = 'all';
       head.appendChild(link);
   }
