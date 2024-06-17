@@ -3,6 +3,7 @@ function criarBarra(var_nome = 'Seu Nome', var_avatar = '', var_insta_nome = 'se
 var varStatus = document.createElement("span");
 var elementoPai = document.getElementsByTagName("typebot-standard")[0].shadowRoot.querySelector('.typebot-container');
     
+console.log(elementoPai);
 
 var userBar = document.createElement("div");
 userBar.className = "user-bar";
@@ -13,6 +14,8 @@ backButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="30" heigh
 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
 </svg>`;
 
+console.log(backButton);
+
 // Adicionando um evento de clique para redirecionar quando o botÃ£o de volta for clicado
 backButton.addEventListener("click", function() {
 window.location.href = `${var_insta_url}`; // Substitua pelo URL desejado
@@ -21,6 +24,8 @@ window.location.href = `${var_insta_url}`; // Substitua pelo URL desejado
 var avatar = document.createElement("div");
 avatar.className = "avatar";
 avatar.innerHTML = '<img src="'+var_avatar+'">';
+
+console.log(avatar);
 
 var name = document.createElement("div");
 name.className = "name";
